@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nav-header {
+  border-radius: 0;
+  background-color: silver;
+}
+
+.navbar-brand h1 { /* Company name */
+  color: black;
+  line-height: 0.75;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#page-heading { /* Page heading */
+  color: black;
+  font-weight: bold;
+  font-size: 2.2em;
+}
+
+.row-item {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.menu-item {
+  background-color: silver;
+  margin-bottom: 15px;
+}
+
+.menu-item-title {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.menu-item-info {
+  padding: 15px, 15px, 15px, 0px;
+}
+
+#nav-list {
+  margin-top: 40px;
+}
+
+#nav-list a {
+  font-size: 1.5em;
+  text-align: center;
+  /* display: inline-block; */
+}
