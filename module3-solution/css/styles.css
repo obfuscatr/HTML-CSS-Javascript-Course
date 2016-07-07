@@ -7,6 +7,7 @@
 #nav-header {
   border-radius: 0;
   background-color: silver;
+  border: 2px solid black;
 }
 
 .navbar-brand h1 { /* Company name */
@@ -48,12 +49,58 @@
   padding: 15px, 15px, 15px, 0px;
 }
 
+#collapsable-nav {
+  clear: both;
+  border: 0;
+}
+
 #nav-list {
-  margin-top: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
+  border-top: 2px solid black;
+}
+
+#nav-list li {
+  border-bottom: 2px solid black;
+}
+
+#nav-list li:nth-child(3) {
+  border-bottom: 0;
 }
 
 #nav-list a {
-  font-size: 1.5em;
+  font-size: 1.4em;
+  color:black;
+  background-color: white;
   text-align: center;
-  /* display: inline-block; */
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle.collapsed, .navbar-header button.navbar-toggle:focus {
+  background-color: silver;
+}
+
+.navbar-header button.navbar-toggle.collapsed {
+  border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle.collapsed .icon-bar {
+  border: 2px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+  border: 1px solid whitesmoke;
+}
+
+.navbar-header button.navbar-toggle .icon-bar {
+  border: 2px solid whitesmoke;
+}
+
+/* Extra margins for extra small screen sizes, as shown in the mockup */
+@media (max-width: 767px) { 
+
+  .row-item {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
 }
