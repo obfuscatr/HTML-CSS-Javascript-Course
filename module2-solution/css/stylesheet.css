@@ -129,20 +129,16 @@ body {
   margin: 8px;
 }
 
-.div-spacer {
+.section-title-chicken, .section-title-beef, .section-title-sushi {
+  float: right;
+  clear: left;
+  color: black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
   font-weight: bold;
   font-size: 125%;
-  color: transparent;
   text-align: center;
-}
-
-.section-title-chicken, .section-title-beef, .section-title-sushi {
-  color: black;
-  border: 1px solid black;
-  position: absolute;
-  right: -1px;
-  top: -1px;
-  width: 120px;
+  width: 120px; 
 }
 
 .section-title-chicken {
@@ -158,6 +154,7 @@ body {
 }
 
 .menu-text {
-  margin-top: 10px;
+  clear: right;
+  margin-top: 33px;
   padding: 5px;
 }
